@@ -1,0 +1,11 @@
+<?php
+// If the row is disabled, make sure we don't allow it to be sorted
+// Если строка отключена, убедитесь, что мы не разрешаем ее сортировку
+if (!$record->active)
+	echo '<span class="disabled"></span>';
+
+
+// If the row isn't disabled, add the hidden sort element
+// Если строка не отключена, добавляем скрытый элемент сортировки
+else
+	echo '<input type="hidden" class="index_reposition" value="'.$record->id.'" /> '.$record->position;

@@ -1,0 +1,4 @@
+1.0.0:
+    - 'Init plugin'
+    - 'Added "position" fields to lovata_shopaholic_products.'
+    - update_table_product.php   

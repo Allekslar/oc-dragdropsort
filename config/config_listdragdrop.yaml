@@ -1,0 +1,19 @@
+title: 'lovata.shopaholic::lang.product.list_title'
+modelClass: Lovata\Shopaholic\Models\Product
+list: $/lovata/shopaholic/models/product/columns.yaml
+recordUrl: 'lovata/shopaholic/products/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '0'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+toolbar:
+    buttons: '$/allekslar/dragdrop/config/_list_toolbarextend.htm'
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+filter: _config_filter.yaml
+
+# Default sorting column
+defaultSort:
+    column: position
+    direction: desc
